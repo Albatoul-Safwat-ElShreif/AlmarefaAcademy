@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: 'Tajawal', sans-serif;
+  direction: rtl;
+}
+
+.header{
+    padding: 30px;
+    text-align: center;
+}
+
+.video_and_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px 50px ;
+}
+
+.video_and_details img{
+    height: 20px;
+}
+
+.details{
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* تصحيح الـ box-shadow */
+    padding: 30px 50px;
+    margin: 30px;
+}
+
+.start_btn{
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid black;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.start_btn:hover{
+    background-color: #f07c00;
+    border-color: #f07c00;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+hr {
+  width: 800px;
+  margin-right: 0; /* يلزق في اليمين */
+  margin-left: auto; /* يخلي المسافة الباقية في الشمال */
+}
+
+.man{
+    height: 100px;
+}
+
+.about_course{
+    margin: 0 50px 50px 200px;
+}
+
+
+
+footer{
+  background-color: #f07c00ce;
+  padding: 50px;
+}
+
+.social-section img{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+.social-section img:hover{
+  width: 42px;
+  height: 42px;
+}
+.footerone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 700px;
+}
+
+.copy{
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo span {
+  font-size: 20px;
+  font-weight: bold;
+}
